@@ -1,9 +1,12 @@
+void setup () {
 size(500,500);
-background(0,0,0);
+}
 
-rect(230,300,50,125);
+void draw () {
+background(255, 255, 255);
+fill(0, 0, 0);
 rect(195,140,120,200);
-
+  
 fill(0,255,0);
 ellipse(255,300,50,50);
 
@@ -12,3 +15,4 @@ ellipse(255,240,50,50);
 
 fill(255,0,0);
 ellipse(255,180,50,50);
+}
