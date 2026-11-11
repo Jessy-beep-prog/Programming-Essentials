@@ -1,13 +1,10 @@
-boolean vierkant = false;
+size(500, 500);
+background(255);
 
-void setup() {
-  size(400, 400);
-}
+boolean vierkant = true;
 
-void draw() {
-  if (vierkant == true) {
-    rect(50, 50, 200, 200);
-  } else {
-    ellipse(150, 150, 200, 200);
-  }
+if(vierkant == true) {
+  rect(200, 200, 200, 200);
+} else {
+  ellipse(300, 300, 200, 200);
 }

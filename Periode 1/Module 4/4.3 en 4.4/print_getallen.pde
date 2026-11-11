@@ -13,6 +13,11 @@ println(asfand);
 int alon = 8/4;
 println(alon);
 
+// 4.3 opnieuw gedaan
+int score = 10;
+score = score + 10;
+score += 10;
+println(score);
 
 
   float getal = 4.976142;

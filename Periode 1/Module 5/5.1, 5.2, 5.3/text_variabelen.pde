@@ -2,13 +2,12 @@ size(500,500);
 background(255,255,255);
 
 String a = "hallo";
-String b = " ";
-String c = "wereld";
+String b = "wereld";
 
-String zin = a + b + c;
+String zin = a + " " + b;
 println(zin);
 
-println(a + " " + c);
+println(a + " " + b);
 
 String z = "Milan";
 String x = "is";
@@ -32,4 +31,4 @@ String tekst = "Met een gewicht van";
 String tekst2 = "kg en een lengte van";
 String tekst3 = "meter, is jouw BMI";
 
-print(tekst + " " + gewicht + " " + tekst2 + " " + lengte + " " + tekst + " " + BMI);
+print(tekst + " " + gewicht + " " + tekst2 + " " + lengte + " " + tekst3 + " " + BMI);

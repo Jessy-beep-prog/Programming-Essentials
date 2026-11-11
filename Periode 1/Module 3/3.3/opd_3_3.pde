@@ -1,12 +1,10 @@
 size(500,500);
 background(190,175,200);
 
-line(20,20,20,200);
-line(20,20,200,20);
-line(200,20,20,200);
+triangle(50, 50, 100, 50, 100, 100);
 
-line(250,20,450,20);
-line(250,20,350,200);
-line(450,20,350,200);
+text("rechthoekig", 45, 42);
 
-text("gelijk benig", 40, 50);
+triangle(200, 50, 250, 50, 225, 100);
+
+text("gelijkbenig", 198, 42);
